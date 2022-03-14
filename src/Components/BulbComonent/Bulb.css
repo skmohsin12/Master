@@ -1,0 +1,15 @@
+.bulbOn{
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+}
+
+.bulbOff{
+    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    
+}
