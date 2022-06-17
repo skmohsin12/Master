@@ -23,6 +23,11 @@ export const Counter = () => {
         Click to Decrement
       </button>
       <button onClick={() => setCount(initialValue)}>Click to Decrement</button>
+      <select name="" id="">
+        <option value="Select">Select Value</option>
+        <option value="Select">Select Value</option>
+        <option value="Select">Select Value</option>
+      </select>
     </div>
   );
 };

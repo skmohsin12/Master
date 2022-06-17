@@ -11,12 +11,18 @@ export const ToDoList = () => {
     setData((text) => {
       return [...text, input];
     });
+    setInput("");
   };
 
   return (
     <div>
       <h1>My ToDo List</h1>
-      <input type="text" placeholder="Enter Items" onChange={listEvent} />
+      <input
+        type="text"
+        placeholder="Enter Items"
+        onChange={listEvent}
+        value={input}
+      />
       <button onClick={listItems}> +Add </button>
       <br />
       <br />

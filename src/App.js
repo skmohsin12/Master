@@ -10,13 +10,23 @@ import { CompA1 } from "./Components/PropsContextApi/CompA1";
 import { Compo1 } from "./Components/PropsCUseContext/Compo1";
 import { ReducerCounter } from "./Components/CounterWithUseReducer/CounterWithReducer";
 import { Timer } from "./Components/Timer/Timer";
+import { Timer2 } from "./Components/Timer2/Timer2";
 import { Square } from "./Components/SquareDiv/Square";
 import { ToDoList } from "./Components/ToDoList/ToDoList";
+import { MouseMoveEvent } from "./Components/UseEffectUses/MouseMoveEvent";
+import { FetchData } from "./Components/UseEffectUses/FetchDatawithFetch";
+import { FetchDatawithAxios } from "./Components/UseEffectUses/FetchDatawithAxios";
+import { FocusRef } from "./Components/UseRef/FocusWithRef";
+import Parent from "./Components/UpliftingChildtoParent/Parent";
+import { Todolist } from "./Components/TODO/Todolist";
+import { Tasklist } from "./Components/TODO/Tasklist";
+import LoginFormWithValidation from "./Components/FormValidation/LoginFormWithValidation";
 
 function App() {
   return (
     <div className="App">
       <Bulb />
+      <LoginFormWithValidation />
       <Counter />
       <CompA />
       <Bulb2 />
@@ -30,8 +40,16 @@ function App() {
       <Compo1 />
       <ReducerCounter />
       <Timer />
+      <Timer2 />
       <Square />
       <ToDoList />
+      <MouseMoveEvent />
+      <FetchData />
+      <FetchDatawithAxios />
+      <FocusRef />
+      <Parent />
+      <Todolist />
+      <Tasklist />
     </div>
   );
 }
