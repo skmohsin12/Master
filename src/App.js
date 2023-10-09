@@ -22,6 +22,8 @@ import { Todolist } from "./Components/TODO/Todolist";
 import { Tasklist } from "./Components/TODO/Tasklist";
 import LoginFormWithValidation from "./Components/FormValidation/LoginFormWithValidation";
 import FetchingDataLED from "./Components/UseEffectUses/FetchingDataLED";
+import UseCallback from "./Hooks/UseCallback";
+import UseMemo from "./Hooks/UseMemo";
 
 function App() {
   return (
@@ -54,6 +56,8 @@ function App() {
       {/* the following is an todo app example */}
       <Tasklist />
       <FetchingDataLED />
+      <UseCallback />
+      <UseMemo />
     </div>
   );
 }
