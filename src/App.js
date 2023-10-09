@@ -21,6 +21,7 @@ import Parent from "./Components/UpliftingChildtoParent/Parent";
 import { Todolist } from "./Components/TODO/Todolist";
 import { Tasklist } from "./Components/TODO/Tasklist";
 import LoginFormWithValidation from "./Components/FormValidation/LoginFormWithValidation";
+import FetchingDataLED from "./Components/UseEffectUses/FetchingDataLED";
 
 function App() {
   return (
@@ -49,7 +50,10 @@ function App() {
       <FocusRef />
       <Parent />
       <Todolist />
+
+      {/* the following is an todo app example */}
       <Tasklist />
+      <FetchingDataLED />
     </div>
   );
 }
